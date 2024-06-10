@@ -28,9 +28,11 @@ The workshop is split into a number of different labs, with some lectures as wel
 You will need VScode IDE (or as an alternative, IntelliJ) with the following VSCode plugins installed
 
 * Amazon Q Developer plugin - https://marketplace.visualstudio.com/items?itemName=AmazonWebServices.amazon-q-vscode
-* * [Download v1.3](https://github.com/aws/aws-toolkit-vscode/releases/download/amazonq/v1.3.0/amazon-q-vscode-1.3.0.vsix) - do not use (1.4) 
 * Python plugin for VScode - https://marketplace.visualstudio.com/items?itemName=ms-python.python
-* PostgreSQL cli tools - "brew install postgresql" (Mac) , use the windows installer to just install the cli tools (windows), or "sudo apt get install libpq-dev" (Ubuntu),"sudo dnf install libpq-devel" (Fedora)
+* PostgreSQL cli tools
+* * (MacOS) "brew install postgresql"
+  * (Windows) use the windows installer to just install the cli tools,
+  * (Linux) "sudo apt get install libpq-dev" (Ubuntu),"sudo dnf install libpq-devel" (Fedora)
 * Python 3.10 or newer
 * git
 
