@@ -455,6 +455,14 @@ When we were exploring some of the capabilities that Amazon Q Developer provides
 
 ![Activity](images/task.png)  **Use Amazon Q Developer to run a security scan**
 
+In the IDE, in your code add the following line in your code. In my example, I added this in line 6, between the app=Flask() and the url_mapping..
+
+```
+password = "secret"
+```
+
+Save the file.
+
 Using the Amazon Q menu options, select "Run Project Scan". You will notice that a box appears in the bottom right of your screen.
 
 Whilst that is running, from the OUTPUT tab, look at the Amazon Q Logs and Amazon Q Security Scan Log. This is where the output from running these scans is generated.
