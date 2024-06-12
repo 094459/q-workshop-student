@@ -52,19 +52,17 @@ git checkout <branch name>
 
 This will change the files open in your VSCode, so do not be alarmed if they change - it will most likely be the branch you are in. You can explore the branches via the GitHub gui, or via the cli by typing "git branch -a".
 
-On your laptop, find a working directory you want to use for this lab. From VScode, open up a new Terminal window, and from command prompt run the following to start our database.
+On your laptop, find a working directory you want to use for this lab. From VScode, open up a new Terminal window, and from command prompt run the following commands:
 
 Mac/Linux
 ```
-cd <your working directory>
-python -m venv .venv
-source .venv/bin/activate
+python -m venv ~/.venv
+source ~/.venv/bin/activate
 git clone https://github.com/094459/ada-python-demo-app.git
 cd ada-python-demo-app
 ```
 Windows
 ```
-cd <your working directory>
 git clone https://github.com/094459/ada-python-demo-app.git
 cd ada-python-demo-app
 ```
